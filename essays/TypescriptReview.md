@@ -10,6 +10,8 @@ labels:
   - Programming
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/TypeScriptLogo.png">
+
 Typescript is a language used primarily in web development as an alternate to Javascipt. As a variant to Javascript, it's main focus is to establish types to prevent illegal changing of variables. This allows for better security and to prevent against errors when programming. Seeing it's usefulness, it has become a standard among many different software making companies. 
 
 Seeing as I have not used Typescript or Javascript, both offered their own challenges and setbacks while trying to learn them. Javascript felt much like python, in that you did not have to specify your type. This kind of style was much easier to code, but it had many setbacks when it came to readability and the ability to recognize errors. There is a lot more chance to assign the wrong type to a variable, which will almost always throw an error somewhere down the line. Even when things are coded correctly, it can be very difficult to read as there is a lot of interpretation that has to be done, which can make it very difficult to troubleshoot, especially with those that have not seen the code before. 
