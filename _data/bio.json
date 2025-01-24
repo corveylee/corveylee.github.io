@@ -14,10 +14,10 @@
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
     { "name": "Artificial Intelligence" },
     { "name": "Video Game Development" },
-    { "name": "3D Graphics" }
+    { "name": "Mathematics" },
+    { "name": "Cross-Cultural Communication" }
   ],
   "skills": [
     {
@@ -42,69 +42,69 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "UH Manoa Office of Residental Life",
+      "position": "Resident Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2024-08-05",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Assisting UH Manoa residents navigate academics and dorm life",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Propose and submit funding for educational projects with the purpose of improving students' academic, emotional, and social wellbeing",
+        "Utilized problem solving skills to mediate conflicts between residents in order to ensure an inclusive space for all residents",
+        "Administrative duties including submitting program proposals, maintenance requests, incident reports, and room transfers"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Mcdonalds",
+      "position": "Crew Trainer & Stocker",
+      "website": "",
+      "startDate": "2022-05-14",
+      "endDate": "2023-07-15",
+      "summary": "Training workers how to properly navigate the food-service industy",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Trained new employees proper food preparation techniques and customer service skills",
+        "Assisted in organizing shift scheduling and placement",
+        "Handled shipping manifests and the organization and maintenance of the stock room"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Kailua High School Community Projects",
+      "website": "https://www.kailuahighschool.com/",
+      "position": "Helper",
+      "startDate": "2012",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "Volunteering to participate in Kailua High School yearly concession stand and emu fundraisers",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Took orders and helped students learn how to work in the food industry",
+        "Preparing food and emu preparation for the high school to give back to the community during Thanksgiving"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "organization": "Okinawan Festival",
+      "website": "https://www.okinawanfestival.com/",
+      "position": "Booth Worker",
+      "startDate": "2012",
+      "endDate": "Present",
+      "summary": " Volunteering to take orders and prepare food to be sold at the Kanegusuku Booth of the Okinawan Festival",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Engaged with members of the Okinawan community and learned about the genealogy of Okinawans living in Hawaii"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "2023-Present",
+      "awarder": "University of Hawai'i at Mānoa",
+      "summary": "Maximum scholarship awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.6 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's list",
+      "date": "Spring 2024",
+      "awarder": "University of Hawaii",
+      "summary": "Earned a cumulative GPA above 3.5 for the Spring 2024 semester."
     }
   ],
   "references": [
