@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/pngtree-concept-banking-logo-png-image_712961.jpg
 title: "Bank Database"
 date: 2023
 published: true
