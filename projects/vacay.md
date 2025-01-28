@@ -2,15 +2,15 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+title: "Evaluation and Sustainability Slideshow"
+date: 2024
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Cultural
+  - Hawaii
+  - Sustainability
+  - Colonialism
+summary: "An educational slideshow that talks about the impact of settler colonialism and it's effect on the modern landscape of Hawai'i made for ES 381"
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
