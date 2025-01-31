@@ -74,7 +74,7 @@ The heading is done pretty efficiently. It cuts straight to the point, mentionin
 
 The answer that this got was just as descripitive and to the point as the question. The answer had two main points of error and attempted to list out some fixes, as well as mentioning that these fixes do not fully reach the goal set by the question. The creator of the question followed up stating that the fix did work for the purposes that they were intending for. This shows that specific and targeted questions that get straight to the point are effective in getting equally targeted answers.
 
-## How do I NOT ask a question to people
+## How do I not ask questions to people
 
 While it may seem very simple and easy to make a good, directed, question, there is often many questions that are put onto forums that are, so to say, pointless. Here is an example of one on StackExcange:
 
