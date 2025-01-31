@@ -11,7 +11,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/istockphoto-1386740242-612x612.jpg">
 
 # Questioning is good... right?
 Questioning is a natural thing for human beings. It allows us to learn more about the world and gives us the oppurtunity to share experiences and knowledge between other people who may not have as much experience. With the advent of technology, communication and information has been mainstreamed, and questions are being asked millions of times per second. With so many questions, technology is able to give us the information without the need of another human being. That being said, there are still a lot of questions that have yet to be answered or docummented onto the internet, partially because it needs to be formally written by a human, or partially becuase the question talks about obscure topics that have not been thought about in that particular context. It is at this point that we can rely on others to try and problemsolve and create answers to these solutions, or to find out that there is no definitive answer to the question.
@@ -68,7 +68,7 @@ I have not tested this code and i don't want to use it anyway (unless I can't fi
 
 Thanks for your help!
 ```
-Link to question
+Link to [question](https://stackoverflow.com/questions/79398303/overlay-sf-object-on-ggmap-not-aligned-specific-to-region)
 
 The heading is done pretty efficiently. It cuts straight to the point, mentioning the program that they are working with and the specific issue they are having with the program. When you click into the question, there is a short but very intricate description of the goal. They also mention that they have tried this with other states, but it is this specific state that is not working with the program. Finally, they gave the code along with the references used alongside the code. This makes it very easy for other professionals to look at and analyze any errors in the code. 
 
@@ -83,7 +83,7 @@ Q: Should I use Ternary relationship or complex attribute [closed]
 
 help me create the ERD of my Job recruitment system and explain succinctly how each entity can be represented, and mapped. I specifically want to ask about the Apply relationship, and weather the applicationStages is drawn and mapped correctly to reflect that the applicationStages should only be visible once an applicant has applied to a job and was shortlisted by a recruiter to start the interviewing process. Should the ApplicationStages be represented as a weak entity on this relationship, or a complex attribute?
 ```
-Link to question https://stackoverflow.com/questions/79401235/should-i-use-ternary-relationship-or-complex-attribute
+Link to [question](https://stackoverflow.com/questions/79401235/should-i-use-ternary-relationship-or-complex-attribute)
 
 This question seems like much less a question and seems more like a "can you please do this for me?" The biggest problems with this question is that there is no previous structure to work on nor is there a specific goal that should be reached. On some forums, this may be okay to post, although professionals probably won't respond, and it is a quesiton to be left as a discussion for people who are bored rather than a question for professionals to answer. This is exactly the reason why StackOverflow decided to close this question.  
 
