@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "You are asking bad questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2025-01-30
 published: false
 labels:
   - Questions
@@ -13,25 +13,41 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+# Questioning is good... right?
+Questioning is a natural thing for human beings. It allows us to learn more about the world and gives us the oppurtunity to share experiences and knowledge between other people who may not have as much experience. With the advent of technology, communication and information has been mainstreamed, and questions are being asked millions of times per second. With so many questions, technology is able to give us the information without the need of another human being. That being said, there are still a lot of questions that have yet to be answered or docummented onto the internet, partially because it needs to be formally written by a human, or partially becuase the question talks about obscure topics that have not been thought about in that particular context. It is at this point that we can rely on others to try and problemsolve and create answers to these solutions, or to find out that there is no definitive answer to the question.
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+## How do I ask questions to people?
+In the professional setting, StackOverflow is one of many forums that are used to ask and answer questions. As a forum, anyone can post and ask for questions. StackOverflow does a great job at filtering these questions so that it answers unique quesitons, including questions that are very specific, as well as questions of programs that are not well docummented. Here we will see an example of a well written question to a forum. 
 
 ```
-Q: python date of the previous month
+Q: Overlay sf object on ggmap - not aligned, specific to region
 
-I am trying to get the date of the previous month with python. Here is what i've tried:
+I would like to overlay an sf object (mapping geometry with organization's data) over the google map showing terrain features. This was successful when using other US states, but not Alaska. What do I need to do/change in order to overlay the map more precisely? map overlay i achieved
 
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
+ak1<-ggmap(AK.base)+
+  geom_sf(data=ak_region_download,mapping=aes(geometry=geometry,fill=n,color=''),inherit.aes = F,alpha=.5)+
+  scale_fill_continuous(na.value=NA,low = "darkblue", high = "orange", 
+                        name = 'number',
+                        breaks=c(1,5,10,20,30,40))+
+  scale_color_discrete('')+
+  theme_bw()
+ak1
+For reference I achieved AK.base with a google API
 
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
+AK.base <- get_map(location = c(lon=-152,lat=63.5), zoom = 4, scale = "auto", 
+                   maptype = c("terrain"), 
+                   messaging = FALSE, urlonly = FALSE, filename = "ggmapTemp", 
+                   crop = FALSE, color = c("color"), source = c("google"))
+And the dataframe looks something like this, using the geojson file from the website referenced below.
+
+# https://gis.data.alaska.gov/datasets/DCCED::alaska-borough-and-census-area-boundaries/about
+#
+# Download shapefile from above link, place ZIP in folder called DataRaw within 
+# project directory, unzip
+ak_region_download <-
+  here("DataRaw/Alaska_Borough_and_Census_Area_Boundaries.shp") |> 
+  sf::st_read()
+ak_region_download$n <- 1:30
 
 I have solved this trouble in bash with:
 
@@ -52,48 +68,24 @@ I have not tested this code and i don't want to use it anyway (unless I can't fi
 
 Thanks for your help!
 ```
+Link to question
 
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+The heading is done pretty efficiently. It cuts straight to the point, mentioning the program that they are working with and the specific issue they are having with the program. When you click into the question, there is a short but very intricate description of the goal. They also mention that they have tried this with other states, but it is this specific state that is not working with the program. Finally, they gave the code along with the references used alongside the code. This makes it very easy for other professionals to look at and analyze any errors in the code. 
 
-```
-A: datetime and the datetime.timedelta classes are your friend.
+The answer that this got was just as descripitive and to the point as the question. The answer had two main points of error and attempted to list out some fixes, as well as mentioning that these fixes do not fully reach the goal set by the question. The creator of the question followed up stating that the fix did work for the purposes that they were intending for. This shows that specific and targeted questions that get straight to the point are effective in getting equally targeted answers.
 
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
+## How do I NOT ask a question to people
 
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
+While it may seem very simple and easy to make a good, directed, question, there is often many questions that are put onto forums that are, so to say, pointless. Here is an example of one on StackExcange:
 
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+Q: Should I use Ternary relationship or complex attribute [closed]
 
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
+help me create the ERD of my Job recruitment system and explain succinctly how each entity can be represented, and mapped. I specifically want to ask about the Apply relationship, and weather the applicationStages is drawn and mapped correctly to reflect that the applicationStages should only be visible once an applicant has applied to a job and was shortlisted by a recruiter to start the interviewing process. Should the ApplicationStages be represented as a weak entity on this relationship, or a complex attribute?
 ```
-Q: Facebook Desktop Notifier
+Link to question https://stackoverflow.com/questions/79401235/should-i-use-ternary-relationship-or-complex-attribute
 
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
+This question seems like much less a question and seems more like a "can you please do this for me?" The biggest problems with this question is that there is no previous structure to work on nor is there a specific goal that should be reached. On some forums, this may be okay to post, although professionals probably won't respond, and it is a quesiton to be left as a discussion for people who are bored rather than a question for professionals to answer. This is exactly the reason why StackOverflow decided to close this question.  
 
 ## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+Questions are a very useful method of obtaining information and utilizing other peoples' expertice as knowledge for getting a task done. With the advent of computers, there is a lot of questions that have answers already on Google or other simple forums. If you want real questions answered or you can't find the same question asked anywhere else, then it is best to post to a professional forum or reach out to a professional of that subject. Be warned though, as to get an answer you must due your proper dilligence in making sure that your question is specific and targeted, and it should show that you at least tried to make it work using outside resources. This is not only corteous but it ensures that you are not wasting time for an answer, something that many professionals do not have. 
