@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "You are asking bad questions"
+title: "You are bad at asking questions"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-30
 published: true
