@@ -11,7 +11,7 @@ labels:
   - Programming
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/1_-WosNzXumx9wbyGbgpcIlA.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/1_-WosNzXumx9wbyGbgpcIlA.png">
 
 # Introduction
 In programming, there is nothing more important than functionality, right? The whole purpose of code is to serve a function, and to be able to create seemingly anything from a collection of 1s and 0s. The idea that there essentially no other things we need to think about in coding..
