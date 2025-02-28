@@ -11,7 +11,7 @@ labels:
   - Website Design
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/istockphoto-1386740242-612x612.jpg">
+<img width="300px" class="rounded float-start pe-4" src="https://cdn.prod.website-files.com/64fa82cbdeed167ebaefef84/64fa868fecc183a3dd76ab9b_603ec501a6b6c20b9a4bd8ea_NqTbR0Wrfgs6hVQddSpxv6St-KXkunWOxgfAtsVgrQtmFn9UJ8LKAzed9e4i8qWC2kwAy63Fm_iHwxjkK4NNlkM0UBFvarQdC3H97LgCPd6f6N5lGuKJYyju9qJsrIYlSZZ3fWfj.jpeg">
 
 # Introduction
 According to Forbes (*1), there are over 190 million active websites on the World Wide Web! With such ease of access to so many different webpages, it would make one believe that making a website is easy. While this is partially true, with HTML being very easy to pick up, making a good website is very difficult. For a website, there is a lot more to “good” than just the content of the page. Unlike a database, which is just numbers and code, a webpage holds graphics, images, and text. Each of these can further be formatted based on size, color, font, and more. Website design is a creative venture in itself, and it can take many hours of fiddling and recoding to get the desired look.
