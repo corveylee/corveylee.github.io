@@ -1,33 +1,45 @@
 ---
 layout: essay
 type: essay
-title: "The Big Rule of Programming"
+title: "The Hidden Beauty of Design"
 # All dates must be YYYY-MM-DD format!
-date: 2025-02-12
+date: 2025-04-24
 published: true
 labels:
-  - Typescript
+  - Software Development
   - Coding Standards
-  - Programming
+  - Design Patterns
 ---
 
-<img width="400px" class="rounded float-start pe-4" src="../img/1_-WosNzXumx9wbyGbgpcIlA.png">
+# The Hidden Beauty of Design
 
 # Introduction
-In programming, there is nothing more important than functionality, right? The whole purpose of code is to serve a function, and to be able to create seemingly anything from a collection of 1s and 0s. The idea that there essentially no other things we need to think about in coding..
+![Phone Comparisons](../img/comparison.png)
+In modern society, we rely on patterns in designs in everything we see and consume. Just think about the modern smartphone; the differences between iPhone, Android, and Google are very small, coming down to software level differences. This is because we are accustomed to the best working and most used features. This is to the point where companies that try to redefine these designs often get little to no traction. 
 
-...is wrong. Unless you still live in the startup era of technology, long gone are the days that we need to make code in any way, shape, or form. Sure, if you are just a starting programmer, there is nothing wrong with coding in any way that makes sense to you. Putting unlimited nested if-statements will get the program to work, same as letting your strings trail to the ends of your page. This to me is the beauty of coding; there are unlimited ways to answer a problem, and while the overall function is generally the same, the way that it is presented can be very different between two people.
- 
-It is almost as if there are many dialects to the various languages. Some more understandable than others, but all following a general structure that is understandable to someone. This creates hundreds if not thousands of differences and variations that can be made to code. These differences, however, can make it very difficult to understand to other programmers and developers, and projects with teams of 30+ can be extremly difficult to work together, almost like a language barrier. This is why coding standards are put into place. 
+These designs are usually built off of already existing designs, slightly improving them for better handling and usage. One of the classic examples of this is the wheel. An invention since anchient Mesopotamia, the simple circular design is still seen in all of our inverntions today. This is the reason there exists the phrase "don't reinvent the wheel." There would not be a better alternative to this design, hence why it continues to be used to this day.
 
-# What is a coding standard
-Coding standards are a very common standard in coding. In nearly every language, dating as far back as the C language at least, has a coding standard. They are a set of rules within a language that help legibility and create an organaztion structure that is universal. The correct standard to use is highly debated through nearly every language, and it merely comes down to preference. With this, it has people asking the point of trying to universalize one standard. Regardless of which standard to use, it is agreeable that standards are useful. 
+## Fuction vs Cosmetic
+Most of the changes that stick permanantly is due to functional purposes. Whether it be a certain shape for a structure or a certain pattern used on fur and clothing, most of the time they are used for efficiency or for better survival. Seeing as they serve an actual purpose, they end up being reused for many years.
 
-To programmers, it can seem very tedious, as there are many minor details to follow. It may be as small as the type of quote to use, or the amount of spaces before a line. All of these, however, create a uniform look to code, and makes it easy for others to understand and analyze code. This is especially useful in widescale projects, where access and revision of code may go through many different people as well as teams. In this setting, taking extra time to understand the code given is ultimately time lost and money wasted. So even though it takes longer for the developer to code, it relieves the burden for the hundreds of others who may also be editing this code.
+![Firefox logo](../img/Firefox.png)
+Another reason that we use design patterns is for cosmetic reasons. Often, there is a certain pattern that is eye catching, and is used as it attracts people. Examples of this are the simplifying of logos, where many designs that used to have much detail are adopting simpler colors and shapes.  These trends are very short, changing from a range of months to a couple of years. 
 
-For typescript, I have been able to expreience using ESLint to check code against a coding standard. I believe that it is very straightforward, and it definitely helps the readability of the final product. Having it show the errors live, however, makes it very difficuly to focus on the function of the code. Seeing the red lines over nearly all of the code before it is fully written makes it difficuly to read, and it puts the focus on fixing the structure rather than the function. I believe that it would be much better to write the entire code first and then check with ESLint. It can be a great tool used to make code more understandable, but it should not be the sole priority or purpose when making the code. 
+The third of these, is not function nor cosmetic, but rather just convention. Sometimes when we adapt a certain standard that works, we stick with it, even if there are better looking or more functional. A great example of this is the QWERTY keyboard. While it does not make sense stylistically and there are much more ergonomic styles, it is purely out of convention that it is the most popular keyboard style. These tend to stick for a time in between function and cosmetic, as it stays until public perception changes about this design. 
+
+# Uses in Software Development
+
+When it comes to programming, design patterns are used everywhere. Look no further than any of your favorite sites that come with a navigation bar, login page, contact us page, and more. Using established elements are the difference of poorly made blog websites vs professional style websites. 
+
+For the same reasons as above, we use design patterns in computer science and software development as there are problems that repeatdly have the same solution. There is a bigger reason, however, that it is useful in software engineering. Instead of creating and programming the same element over and over again, we can reuse common elements instead of spending the time to accomplish the same task. This saves a lot of time and can possibly make it easier for others to make their own websites. 
+
+Many design patterns are often used when creating applications, unknowingly to the programmer. This shows to the usefullness of these design patterns and why we so often use them in programming. The added benefit of using these patterns across multiple different languages, scenarios, and machines is why these are so beneficial.
+
+In my experience, I have not had a chance to directly analyze many of the design patterns that are used in software engineering. One that I do like to highlight is the simple signleton pattern. This pattern ensures that there is only one instance of a class and that anyone who accesses this class can only create a single instance of this class, or access the already existing instance. This is really helpful in databases, as it can ensure that every user has exactly one instance that they can access, without the ability to create extra instances. 
 
 # Conclusion
-No one is saying to code a certain way. Ultimately your style and understanding of coding is up to you. If you are a solo developer, then there is nothing wrong with publishing something with non-standard coding. Just look to games like Undertale as examples of worldwide famous games that are very messy to read internally. The gamer has absolutely nothing to worry about, as they will never see what's going on behind the scenes. Any coder, however, has an absolutely terrible time trying to decode what is going on. Seeing as the game never had to be updated, this was never a problem. 
+Design patterns are used in a plethora of ways to make it easier to create and maintain systems when being developed. Held together by the concept that we solve many of the same problems over and over again, we create these patterns to be able to efficiently solve these problems. These patterns usually transcend the language or hardware that it is coded on, allowing for a universal solving to many of the common bottlenecks when creating programs. 
 
-There definitely is, however, benefit to learning a coding standard. The semantic of which one will probably not matter, unless you need to use it in a proffesisonal setting. Using a standard, however, teaches you how to code in a legible way, which is useful for others trying to edit or repurpose the code. It can also teach you how to code in a more efficient way, and cause one to think about coding in an organized order, rather than a jubmled mess. 
+They are definitely a useful tool when creating programs that deal with limitations that need to be met. Usually solutions can be solved using a straightforward solution, but it leaves vulnerabilities that could take a lot of extra time to fix, not to mention the amount of damages that it could cause. Overall, it provides a layout to follow which can save a lot time, effort, and loss in damages.
+
+![Design Patterns](../img/design-patterns.png)
