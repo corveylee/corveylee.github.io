@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-image: img/pasted%20image%200.png
+image: img/dormu-logo.png
 title: "DormU"
-date: May 16, 2025
+date: May, 2025
 published: true
 labels:
   - HTML
