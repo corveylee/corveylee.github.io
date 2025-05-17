@@ -11,6 +11,7 @@ labels:
   - Databases and Algorithms
 summary: "A C program that I made for my final project for ICS 212."
 ---
+<img width=500px src="../img/bankintro.png">
 
 The bank database program was a program designed to showcase a multitude of skills in c and later c++ by creating a fully functional banking database and interactive user interface. The database would a singly linked-list collection of records sorted in order by account number, meaning that each record would point to the next available record sequentially. It was up to the developer (me) to create functionality to add, delete, find, and print all records in the database. In addition, it was also up to me to show text information regarding the system and have users be able to navigate the system through commands as well as input and process information given by the user of the program to be used in the record. Finally, the last goal of the project was to use file I/O to be able to load the information from a file and then reupload the information when the program is completed. In the end, the project had full functionality and met all of the requirements. 
 
