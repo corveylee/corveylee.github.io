@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/pngtree-concept-banking-logo-png-image_712961.jpg
 title: "Bank Database"
-date: 2023
+date: 2025
 published: true
 labels:
   - Computer Science
@@ -11,6 +11,8 @@ labels:
   - Databases and Algorithms
 summary: "A C program that I made for my final project for ICS 212."
 ---
+
+The bank database program was a program designed to showcase a multitude of skills in c and later c++ by creating a fully functional banking database and interactive user interface. The database would a singly linked-list collection of records sorted in order by account number, meaning that each record would point to the next available record sequentially. 
 
 This is a Bank Database program that runs on your local machine. It takes existing information from a file (or creates a new one) and interprets it into accounts within the database. The user is then free to add, remove, find, or print all records. Once the user is done, all information is updated to the database file. 
 

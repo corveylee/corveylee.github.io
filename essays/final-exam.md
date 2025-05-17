@@ -4,7 +4,7 @@ type: essay
 title: "What I Learnt After Building a Website"
 # All dates must be YYYY-MM-DD format!
 date: 2025-05-14
-published: false
+published: true
 labels:
   - Web Design
   - Software Development
